@@ -17,6 +17,7 @@
 - IDP OAuth2.0 - Self-hosted 
     - Comunicação interna por segurança (Firewall rules)
 - Compatível com outros serviços de Auth
+- Pode ser usado com One time 
 - Pode cuidar de todo o fluxo de cadastramento e acessos das aplicações através da interface Web
 - Segregação de dados e acessos
 - Mais segurança em ser separada da aplicação e segregada por acessos
