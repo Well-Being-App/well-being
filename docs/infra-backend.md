@@ -26,7 +26,7 @@
         - Tomando cuidado para manter o registro de forma persistente caso a VM caia, uso de um volume externo a VM.
 
 ### MongoDB - v6
-- Autenticação segura com a API Backend
+- Autenticação segura com a API Backend 
 - Acesso através de um nó 
     - Trabalha muito bem em containers.
 - Divisão de processamento de dados com a API, em conjunto com as aggregations
