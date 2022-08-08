@@ -1,4 +1,4 @@
-# well-being
+# Well-Being
 App de bem estar
 Pages: https://well-being-app.github.io/well-being/
 
