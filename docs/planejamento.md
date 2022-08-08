@@ -22,7 +22,7 @@ Os papéis foram decididos como sendo:
 | Papel         | Pessoa              |
 | :---          | :---                |
 | Scrum Master  | Felipe Hilst        |
-| Product Owner |  Arthur Crivilin    |
+| Product Owner | Arthur Crivilin     |
 | Team Member   | Bianca Puerta Rocha |
 | Team Member   | Thiago Donas        |
 
