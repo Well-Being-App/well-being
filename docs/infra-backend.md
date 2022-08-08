@@ -1,3 +1,6 @@
+![Arquitetura](images/infra_backend_1_0_0.png)
+[Link para arquivo no Gdrive](https://drive.google.com/file/d/1CA24XPILXxBYLtid1PCO1mjSimEtloso/view?usp=sharing)
+
 # VM
 - Rodando Kubernets 
 - Rotinas bem conhecidas
@@ -14,17 +17,40 @@
 
 ## Containers - Dentro do Kubernets
 ### FusionAuth - Opção se não houver IDP externa.
-- IDP OAuth2.0 - Self-hosted 
+- A IDP da Fusion-Auth, pode ser self-hosted e pode cuidar de toda a autenticação com tecnologia OAuth2.0
     - Comunicação interna por segurança (Firewall rules)
-- Compatível com outros serviços de Auth
-- Pode ser usado com One time 
 - Pode cuidar de todo o fluxo de cadastramento e acessos das aplicações através da interface Web
-- Segregação de dados e acessos
-- Mais segurança em ser separada da aplicação e segregada por acessos
-- Database separada (Postgress)
+- Possui uma API para comunicação com a aplicação
+- Informações básicas que gerencia
+    - Data de nascimento
+    - Email
+    - Nome de Usuário (Pode ser exclusivo)
+    - Telefone
+    - Linguagem de preferência
+
+- Dificuldades:
+    - Configuração de endpoints
+    - Segurança de certificados
+    - Responsabilidade
     - Necessita de um serviço de database Postgress
         - Recomendado ser uma database externa, se não, pode ser orquestrada junto à VM.
         - Tomando cuidado para manter o registro de forma persistente caso a VM caia, uso de um volume externo a VM.
+
+- Vantagens:
+    - Serviço grátis - self-hosted
+    - Mais segurança em ser separada da aplicação
+        - Database separada (Postgress)
+        - Segregação e controle de dados e acessos
+    - Automação de quase todos processos que envolvem a autenticação
+        - Fluxo de recuperação de senha e confirmação de email automatizado
+        - Filtro de CORS e limites de erros personalizável
+    - Integrações com serviços externos
+        - Outros provedores como o Google
+        - Aplicativos 2FA
+
+[Integração Django + FusionAuth](https://fusionauth.io/blog/2020/07/14/django-and-oauth)
+![Login Screen](images/IDP_FusionAuth_Login.png)
+![Dados do usuário](images/IDP_FusionAuth_UserData.png)
 
 ### MongoDB - v6
 - Autenticação segura com a API Backend 
