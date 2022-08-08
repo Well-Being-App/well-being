@@ -18,6 +18,7 @@
     - Nome de Usuário (Pode ser exclusivo)
     - Telefone
     - Linguagem de preferência
-
+    
+[Integração Django + FusionAuth](https://fusionauth.io/blog/2020/07/14/django-and-oauth)
 ![Login Screen](images/IDP_FusionAuth_Login.png)
 ![Dados do usuário](images/IDP_FusionAuth_UserData.png)
