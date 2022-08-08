@@ -1,0 +1,162 @@
+{
+    "Referencia":"https://www.kaggle.com/datasets/ispangler/composio-nutricional-de-alimentos-taco?resource=download",
+    "_id": {
+        "type": "int",
+        "required":true,
+        "incremental":true,
+        "example":0
+    },
+    "Nome": {
+        "type": "string",
+        "required":true,
+        "example":"Arroz integral cozido"
+    },
+    "NutrientesPricipais":{
+        "required":true,
+        "PorcaoReferencia":{
+            "required":true,
+            "type": "float",
+            "unit":"g",
+            "example": 100
+        },
+        "Umidade":{
+            "type": "float",
+            "unit":"%",
+            "example": 70.1
+        },
+        "Energia":{
+            "required": true,
+            "type": "float",
+            "unit":"kcal",
+            "example": 124
+        },
+        "Proteina":{
+            "required":true,
+            "type": "float",
+            "unit":"g",
+            "example": 2.6
+        },
+        "Lipideos":{
+            "required":true,
+            "type": "float",
+            "unit":"g",
+            "example": 1.0
+        },
+        "Colesterol":{
+            "required":true,
+            "type": "float",
+            "unit":"mg",
+            "example": 0
+        },
+        "Carboidrato":{
+            "required":true,
+            "type": "float",
+            "unit":"g",
+            "example": 25.8
+        },
+        "FibraAlimentar":{
+            "required":true,
+            "type": "float",
+            "unit":"mg",
+            "example": 2.7
+        }
+    },
+    "NutrientesSecundarios":{
+        "Cinzas":{
+            "type": "float",
+            "unit":"g",
+            "example": 0.5
+        },
+        "Calcio":{
+            "type": "float",
+            "unit":"mg",
+            "example": 5
+        },
+        "Magnesio":{
+            "type": "float",
+            "unit":"mg",
+            "example": 59
+        },
+        "Manganes":{
+            "type": "float",
+            "unit":"mg",
+            "example": 0.63
+        },
+        "Fosforo":{
+            "type": "float",
+            "unit":"mg",
+            "example": 106
+        },
+        "Ferro":{
+            "type": "float",
+            "unit":"mg",
+            "example": 0.3
+        },
+        "Sodio":{
+            "type": "float",
+            "unit":"mg",
+            "example": 1
+        },
+        "Potassio":{
+            "type": "float",
+            "unit":"mg",
+            "example": 75
+        },
+        "Cobre":{
+            "type": "float",
+            "unit":"mg",
+            "example": 0.02
+        },
+        "Retinol":{
+            "type": "float",
+            "unit":"mg",
+            "example": 0
+        },
+        "Tiamina":{
+            "type": "float",
+            "unit":"mg",
+            "example": 0.08
+        },
+        "Riboflavina":{
+            "type": "float",
+            "unit":"mg",
+            "example": 0
+        },
+        "Piridoxina":{
+            "type": "float",
+            "unit":"mg",
+            "example": 0.08
+        },
+        "Niacina":{
+            "type": "float",
+            "unit":"mg",
+            "example": 0
+        },
+        "Vitamina C":{
+            "type": "float",
+            "unit":"mg",
+            "example": 0
+        }
+    },
+    "AcidosGraxosPrincipais":{
+        "required": true,
+        "Saturados":{
+            "required": true,
+            "type": "float",
+            "unit":"g",
+            "example": 0.3
+        },
+        "Monoinsaturados":{
+            "required": true,
+            "type": "float",
+            "unit":"g",
+            "example": 0.4
+        },
+        "Poliinsaturados":{
+            "required": true,
+            "type": "float",
+            "unit":"g",
+            "example": 0.3
+        }
+    }
+}
