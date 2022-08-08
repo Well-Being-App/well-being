@@ -1,4 +1,4 @@
-![Arquitetura](images/infra_backend_1_0_0.png)
+![Arquitetura](images/infra_backend_1_0_0.png)  
 [Link para arquivo no Gdrive](https://drive.google.com/file/d/1CA24XPILXxBYLtid1PCO1mjSimEtloso/view?usp=sharing)
 
 # VM
@@ -48,9 +48,9 @@
         - Outros provedores como o Google
         - Aplicativos 2FA
 
+![Login Screen](images/IDP_FusionAuth_Login.png)  
+![Dados do usuário](images/IDP_FusionAuth_UserData.png)  
 [Integração Django + FusionAuth](https://fusionauth.io/blog/2020/07/14/django-and-oauth)
-![Login Screen](images/IDP_FusionAuth_Login.png)
-![Dados do usuário](images/IDP_FusionAuth_UserData.png)
 
 ### MongoDB - v6
 - Autenticação segura com a API Backend 
