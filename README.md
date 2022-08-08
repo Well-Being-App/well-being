@@ -13,6 +13,9 @@ O Well-Being propõe-se a facilitar uma vida mais saudável para as pessoas, ret
 - **Ver lembrete de hidratação** - após a anamsene, o sistemaé capaz de calcular a quantidade e os horários em que o usuário deve ingerir liquidos. Então, o usuário pode consultar esses lembretes gerados (que também virão como notificações nos horários pertinentes);
 - **Configurar lembretes de medicamentos** - a pessoa que precisa de lembretes para seus remédios controlados, pode inserir os dados do medicamento no sistema e também os horários que devem ser tomados pra que o sistema gere notificações (lembretes);
 
+
+## Outros documentos 
+
 - **Planejamento**
     * [Planejamento do projeto](./docs/planejamento.md)
 - **Infra**
