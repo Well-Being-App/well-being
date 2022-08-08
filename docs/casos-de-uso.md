@@ -4,7 +4,7 @@
 
 ## Documentação de casos de uso
 
-| Nome do caso de uso         | Registro da anamnese do usuário              |
-| Ator Principal              | Usuário        |
+| Nome do caso de uso         | Registro da anamnese do usuário                                                            |
+| Ator Principal              | Usuário                                                                                    |
 | Resumo                      | Usuário deve inserir seus dados: peso, altura, idade, se fumante, alimentos que tem alergia|
-| Pré-condição                | O usuário deve ter feito o cadastro no sistema |
+| Pré-condição                | O usuário deve ter feito o cadastro no sistema                                             |
