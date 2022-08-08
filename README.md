@@ -1,4 +1,4 @@
-# well-being
+# Well-Being
 App de bem estar
 Pages: https://well-being-app.github.io/well-being/
 
@@ -12,3 +12,12 @@ O Well-Being propõe-se a facilitar uma vida mais saudável para as pessoas, ret
 - **Solicitação da lista de compras semanal** - pode ser feito após a solicitação do cardápio semanal e será feita com base no mesmo;
 - **Ver lembrete de hidratação** - após a anamsene, o sistemaé capaz de calcular a quantidade e os horários em que o usuário deve ingerir liquidos. Então, o usuário pode consultar esses lembretes gerados (que também virão como notificações nos horários pertinentes);
 - **Configurar lembretes de medicamentos** - a pessoa que precisa de lembretes para seus remédios controlados, pode inserir os dados do medicamento no sistema e também os horários que devem ser tomados pra que o sistema gere notificações (lembretes);
+
+
+## Outros documentos 
+
+- **Planejamento**
+    * [Planejamento do projeto](./docs/planejamento.md)
+- **Infra**
+    * [Infra Backend](./docs/infra-backend.md)
+    
