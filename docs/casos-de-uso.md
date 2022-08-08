@@ -3,6 +3,7 @@
 ![Casos de uso](images/UseCase.png)
 
 ## Documentação de casos de uso
+|1	|2	|
 |---	|---	|
 | Nome do caso de uso         | Registro da anamnese do usuário                                                            |
 | Ator Principal              | Usuário                                                                                    |
