@@ -24,6 +24,7 @@
     - Necessita de um serviço de database Postgress
         - Recomendado ser uma database externa, se não, pode ser orquestrada junto à VM.
         - Tomando cuidado para manter o registro de forma persistente caso a VM caia, uso de um volume externo a VM.
+
 ### MongoDB - v6
 - Autenticação segura com a API Backend
 - Acesso através de um nó 
@@ -55,7 +56,7 @@
 - Virtualmente seguro
     - Compatível com OAuth1 e OAuth2 - FusionAuth
     - Compatível com SSL e TLS
-- Conexões com database e serviço OAuth feita em VPC interna, até mesmo interna no Kubernets.
+    - Conexões com database e serviço OAuth feita em VPC interna, até mesmo interna no Kubernets.
 - Pode fornecer o front-end para aplicações em navegadores 
-    - Com hospedagem na Azure e em outros serviços
-    - E pode ser facilmente consumido por aplicações em React-Native
+    - Com hospedagem na Azure e/ou em outros serviços
+    - Pode ser facilmente consumido por aplicações em React-Native
