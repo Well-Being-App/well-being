@@ -1,9 +1,11 @@
 # Well-Being App
 
+O Well-Being é um aplicativo que propõe facilitar uma vida mais saudável para as pessoas, retirando a dificuldade no planejamento das refeições e de lembretes importantes para a saúde. Para isso, o aplicativo utiliza os dados de anamnese do usuário para recomendar cardápios semanais, quantidade de água que deve ser consumida e lembretes para remédios.
+As sugestões de alimentação semanal e lista de compra de mercado serão geradas com base na tabela [TACO](https://www.nepa.unicamp.br/taco/tabela.php?ativo=tabela), que fornece alimentos base e valr nutricional dos mesmos.
+
 ## Documentos 
 - **Diagramas**
     * [Diagrama de casos de uso](casos-de-uso.md)
-    * [Diagrama de infraestrutura](images/infra_backend_1_0_0.png)
 - **Descrição do projeto**
     * [Escopo e Funcionalidades](./README.md)
 - **Planejamento**
