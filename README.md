@@ -20,4 +20,4 @@ O Well-Being propõe-se a facilitar uma vida mais saudável para as pessoas, ret
     * [Planejamento do projeto](./docs/planejamento.md)
 - **Infra**
     * [Infra Backend](./docs/infra-backend.md)
-    
+    * [Infra Frontend](./docs/infra-frontend.md)
