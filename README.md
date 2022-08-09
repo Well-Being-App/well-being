@@ -10,8 +10,8 @@ As sugestões de alimentação semanal e lista de compra de mercado serão gerad
 - **Cadastro de alimentos** - os dados base de alimentos que serão utilizados estão na tabela TACO, mas o usuário administrador pode cadastrar outros alimentos no sistema, informando os dados necessários para a utilização nas funcionalidades;
 - **Cadastro de usuário** - cadastro de usuário e senha;
 - **Registro da anamnese do usuário** - deve ser feito após o cadastro, caso não feito, nenhuma das outras funcionalidades estará disponível;
-- **Criação de cardápio semanal** - o usuário pode solicitar um cardápio semanal de cafe da manha, almoço, café da tarde e jantar para sua semana de acordo com a sua anamnese (por exemplos, para alergicos a glutem, alimentos com glutem não serão apresentados);
-- **Solicitação da lista de compras semanal** - pode ser feito após a solicitação do cardápio semanal e será feita com base no mesmo;
+- **Criação de cardápio por período** - o usuário pode solicitar um cardápio selecionando um período de dias incluindo cafá da manha, almoço, café da tarde e jantar para sua semana de acordo com a sua anamnese (por exemplos, para alergicos a glutem, alimentos com glutem não serão apresentados);
+- **Solicitação da lista de compras semanal relacionada a cardápio** - pode ser feito após a solicitação do cardápio e será feita com base no mesmo;
 - **Ver lembrete de hidratação** - após a anamsene, o sistemaé capaz de calcular a quantidade e os horários em que o usuário deve ingerir liquidos. Então, o usuário pode consultar esses lembretes gerados (que também virão como notificações nos horários pertinentes);
 - **Configurar lembretes de medicamentos** - a pessoa que precisa de lembretes para seus remédios controlados, pode inserir os dados do medicamento no sistema e também os horários que devem ser tomados pra que o sistema gere notificações (lembretes);
 
