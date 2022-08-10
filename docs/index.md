@@ -7,7 +7,7 @@ As sugestões de alimentação semanal e lista de compra de mercado serão gerad
 - **Diagramas**
     * [Diagrama de casos de uso](casos-de-uso.md)
 - **Descrição do projeto**
-    * [Escopo e Funcionalidades](../README.md)
+    * [Escopo e Funcionalidades](./README.md)
 - **Planejamento**
     * [Planejamento do projeto](planejamento.md)
 - **Infra**
