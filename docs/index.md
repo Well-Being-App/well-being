@@ -6,6 +6,7 @@ As sugestões de alimentação semanal e lista de compra de mercado serão gerad
 ## Documentos 
 - **Diagramas**
     * [Diagrama de casos de uso](casos-de-uso.md)
+    * [Protótipo](https://www.figma.com/file/iqMK5mm7jE6AFybqvq1wRC/Well-Being-App?node-id=0%3A1)
 - **Descrição do projeto**
     * [Escopo e Funcionalidades](escopo-funcionalidades.md)
 - **Planejamento**
