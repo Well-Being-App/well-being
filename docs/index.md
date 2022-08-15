@@ -10,6 +10,7 @@ As sugestões de alimentação semanal e lista de compra de mercado serão gerad
     * [Épicos, Features e Histórias de usuário](epicos-features.md)
 - **Descrição do projeto**
     * [Escopo e Funcionalidades](escopo-funcionalidades.md)
+    * [Requisitos não funcionais](reqs-n-funcionais.md)
 - **Planejamento**
     * [Planejamento do projeto](planejamento.md)
 - **Infra**

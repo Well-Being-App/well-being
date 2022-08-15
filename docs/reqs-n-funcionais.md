@@ -1,0 +1,19 @@
+## Requisitos não funcionais
+- Desempenho: 
+    - O tempo de processamento (Querys + API) deverão ser executados em menos de 1 seg
+- Éticos:
+    - As informações que serão exibidas devem seguir a LGPD
+- Confiabilidade:
+    - A aplicação ser disponível 99,99%
+    - A database ter uma rotina de backup diária
+- Tolerância a falhas:
+    - A aplição deverá possuir self-healing
+- Externos:
+    - Ser hospedada no Brasil
+- Interoperabilidade:
+    - Aceitar importação de dados seguindo a tabela TACO
+- Segurança:
+    - As mensagens enviadas entre os endpoints públicos serem criptografadas
+    - A comunicação das camadas do backend feitas em VPC
+- Portabilidade:
+    - A aplicação é feita para mobile
