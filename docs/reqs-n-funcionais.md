@@ -2,18 +2,18 @@
 - Desempenho: 
     - O tempo de processamento (Querys + API) deverão ser executados em menos de 1 seg
 - Éticos:
-    - As informações que serão exibidas devem seguir a LGPD
+    - O armazenamento e gerenciamento de informações deve seguir a LGPD
 - Confiabilidade:
-    - A aplicação ser disponível 99,99%
-    - A database ter uma rotina de backup diária
+    - A aplicação deve ser disponível 99,99% do tempo
+    - A base de dados deve ter uma rotina de backup diária
 - Tolerância a falhas:
-    - A aplição deverá possuir self-healing
+    - A aplição deve possuir self-healing
 - Externos:
-    - Ser hospedada no Brasil
+    - A aplicação deve ser hospedada no Brasil
 - Interoperabilidade:
-    - Aceitar importação de dados seguindo a tabela TACO
+    - A aplicação deve aceitar importação de dados seguindo a tabela TACO
 - Segurança:
-    - As mensagens enviadas entre os endpoints públicos serem criptografadas
-    - A comunicação das camadas do backend feitas em VPC
+    - As mensagens enviadas entre os endpoints públicos devem ser criptografadas
+    - A comunicação das camadas do backend devem ser feitas em VPC (Virtual Private Cloud)
 - Portabilidade:
-    - A aplicação é feita para mobile
+    - A aplicação deve ser executada em dispositivo mobile
